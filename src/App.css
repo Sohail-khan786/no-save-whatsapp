@@ -59,3 +59,9 @@ html, body, #root, #root>div {
     color: #fff;
     font-weight: 800;
 }
+
+@media only screen and (min-width : 500px) {
+  .card {
+      width: 500px;
+  }
+}
