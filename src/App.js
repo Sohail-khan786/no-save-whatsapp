@@ -12,7 +12,6 @@ function App() {
 
   return (
     <div className="pageContainer">
-      {/* <div className="card"></div> */}
       <div className="card">
         <p>Enter Mobile Number With Country Code</p>
         <input 
@@ -20,7 +19,7 @@ function App() {
           value={phoneNumber} 
           onChange={(e)=>{setPhoneNumber(e.target.value)}}
         />
-        <button onClick={()=>{openNumberOnWhatsapp(phoneNumber)}}>Open</button>
+        <button onClick={()=>{openNumberOnWhatsapp(phoneNumber)}}>Open on WhatsApp</button>
       </div>
     </div>
   );
