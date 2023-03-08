@@ -2,8 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>No Save contact app</h1>
+    <div className="pageContainer">
+      {/* <div className="card"></div> */}
+
     </div>
   );
 }
