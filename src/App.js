@@ -20,6 +20,7 @@ function App() {
           onChange={(e) => { setPhoneNumber(e.target.value) }}
         />
         <button onClick={() => { openNumberOnWhatsapp(phoneNumber) }}>Open on WAA</button>
+        Enter SirName: <input />
       </div>
     </div>
   );
