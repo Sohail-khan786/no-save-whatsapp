@@ -13,13 +13,14 @@ function App() {
   return (
     <div className="pageContainer">
       <div className="card">
-        <p>Enter Mobile Number With Country Code</p>
+        <p>Enter Mobile Number With Country Codeee</p>
         <input
           placeholder="eg : +91866XXXXXX"
           value={phoneNumber}
           onChange={(e) => { setPhoneNumber(e.target.value) }}
         />
         <button onClick={() => { openNumberOnWhatsapp(phoneNumber) }}>Open on WAA</button>
+        Enter your country : <input />
       </div>
     </div>
   );
