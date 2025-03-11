@@ -21,6 +21,7 @@ function App() {
         />
         <button onClick={() => { openNumberOnWhatsapp(phoneNumber) }}>Open on WAA</button>
         Enter your country : <input />
+        Enter SirName: <input />
       </div>
     </div>
   );
