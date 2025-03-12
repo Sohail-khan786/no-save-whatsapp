@@ -6,7 +6,7 @@ html, body, #root, #root>div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4b5668;
+  background-color: bisque;
 }
 
 /* Glassmorphism card effect */
