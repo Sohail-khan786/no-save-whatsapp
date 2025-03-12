@@ -2,10 +2,11 @@ html, body, #root, #root>div {
   height: 100%
 }
 .pageContainer {
-  background-image: linear-gradient(180deg,#2f6ed3 5%,#5095e4 20%,#5095e4 60%,#2f6ed3 95%);
+  /* background-image: linear-gradient(180deg,#2f6ed3 5%,#5095e4 20%,#5095e4 60%,#2f6ed3 95%); */
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #4b5668;
 }
 
 /* Glassmorphism card effect */
